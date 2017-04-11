@@ -47,3 +47,9 @@ elif home == "China":
     print("Hello, China")
 else:
     print("Hello, World!")
+
+
+#for loop in Python
+
+for i in range(100):
+    print("Hello, World!")
