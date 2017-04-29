@@ -26,3 +26,43 @@ books = {"Dracula": "Stoker",
        "1984": "Orwell",
        "The Trial": "Kafka"}
 
+
+#small program using a dictionary
+
+rhymes = {"1": "fun",
+          "2": "blue",
+          "3": "me",
+          "4": "floor",
+          "5": "lives"
+          }
+
+n = input("Type a number:")
+if n in rhymes:
+    rhyme = rhymes[n]
+    print(rhyme)
+else:
+    print("Not found")
+
+
+#like JavaScript with multi-dimensional arrays, containers can be inside containers.
+
+lists = []
+rap = ["Tupac Shakur",
+       "Eminem",
+       "Jedi Mind Tricks",
+       "Hopsin"]
+
+rock = ["Pantera",
+        "Amon Amarth",
+        "Trivium",
+        "Monuments"]
+
+classical = ["Mozart",
+             "Vivaldi",
+             "Bach",
+             "Beethoven"]
+
+lists.append(rap)
+lists.append(rock)
+lists.append(classical)
+print(lists)

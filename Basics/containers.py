@@ -41,4 +41,5 @@ colors1 = ["blue", "green", "yellow"]
 
 
 #Tuples are lists that are immutable. Meaning that you can't add or delete objects inside a tuple.
+#To make a tuple with a single object, a comma must be placed after the object
 my_tuple = tuple()
