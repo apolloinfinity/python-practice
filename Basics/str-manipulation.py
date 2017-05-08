@@ -63,5 +63,25 @@ print(indStr)
 
 #If the index method doesn't find a character, python raises an exception
 
-indStr = "animals".index("z")
-print(indStr)
+#indStr = "animals".index("z")
+#print(indStr)
+
+
+#In keyword checks to see if a string is found inside of another string and returns true or false.
+
+#Slice method returns a new lists that can be itereable.
+#It has a start and end index. Start is where you want the slice to begin
+#End index is where you want the slicing to end.
+
+fict = ["Tolstoy",
+        "Camus",
+        "Orwell",
+        "Huxley",
+        "Austin"]
+print(fict[0:3])
+
+ivan = """In place of death there was light."""
+print(ivan[0:17])
+print(ivan[17:33])
+
+#You can leave the index empty if you the index is the last item of iterable
