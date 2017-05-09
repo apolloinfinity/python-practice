@@ -1,2 +1,4 @@
 #1. Print every character in the string "Camus"
-print("Camus".)
+name = "Camus"
+wordList = list(name)
+print(wordList)
