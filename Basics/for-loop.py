@@ -28,3 +28,28 @@ people = {"G. Bluth II":
 for character in people:
     print(character)
 
+#In this example, the for-loop keeps track of items in a list using an index variable.
+tv = ["GOT",
+      "Narcos",
+      "Vice"]
+i = 0
+for show in tv:
+    new = tv[i]
+    new = new.upper()
+    tv[i] = new
+    i += 1
+
+print(tv)
+
+#Accessing items in an index with an iterable is so common, python has another syntax for it
+music = ["Machine",
+         "Parabola",
+         "Stillborn"]
+for i, show in enumerate(music):
+    new = music[i]
+    new = new.upper()
+    music[i] = new
+
+print(music)
+
+
