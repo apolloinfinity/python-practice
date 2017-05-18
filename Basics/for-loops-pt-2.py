@@ -22,3 +22,35 @@ print(all_shows)
 for i in range(1,20):
     print(i)
 
+for i in range(20, 30):
+    print(i)
+
+   
+#While loops execute a block of code while the condition is true.
+#Once the condition is false the while loop stops.
+x = 10
+while x > 0:
+    print('{}'.format(x))
+    x -= 1
+print("Happy New Year!")
+
+#This is an example of an infinite while-loop
+#while True:
+#    print("Hello World!")
+    
+#You can use the break-statement to terminate a loop
+#The moment python hits the break-statement, the loop ends. 
+for i in range(0, 100):
+    print(i)
+    break
+
+qs = ["What is your name?",
+      "What is your favorite color?",
+      "What is your quest?"]
+n = 0
+while True:
+    print("Type q to quite")
+    a = input(qs[n])
+    if a == "q":
+        break
+    n = (n + 1) % 3
