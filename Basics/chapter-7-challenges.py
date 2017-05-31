@@ -9,6 +9,8 @@ for i in range(25, 50):
     print(i)
 
 #3.Print each item in the list from the first challenge and their indexes.
-for i, a in enumerate(["The Walking Dead", "Entourage", "The Sopranons", "The Vampire Diaries"]):
-    print "'%s is %d'" % (a, i)
-    
+#for i, a in enumerate(["The Walking Dead", "Entourage", "The Sopranons", "The Vampire Diaries"]):
+#    print '%s is %d' % (a, i)
+#Work on this problem
+
+#4.Write a program with an infinite loop(with the option to type q to quit) and a list of numbers.
