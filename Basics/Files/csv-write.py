@@ -8,3 +8,9 @@ with open("st.csv", "w") as f:
     w.writerow(["four",
                 "five",
                 "six"])
+
+
+with open("st.csv", "r") as g:
+    r = csv.reader(g, delimiter=",")
+    for row in r:
+        print(",".join(row))
