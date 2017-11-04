@@ -1,13 +1,13 @@
-#For loop has a different syntax than that in JavaScript
-#Where in JS you would do for(var i = 0; i < 5; i++){ do something }
-#Python use the "in" keyword
+# For loop has a different syntax than that in JavaScript
+# Where in JS you would do for(var i = 0; i < 5; i++){ do something }
+# Python use the "in" keyword
 
 name = "Ted"
 for character in name:
     print(character)
-    
 
-#Here is an example of a for-loop iterating through a list with items
+
+# Here is an example of a for-loop iterating through a list with items
 shows = ["GOT",
          "Westworld",
          "Brain Games"]
@@ -52,4 +52,8 @@ for i, show in enumerate(music):
 
 print(music)
 
+books = ['Meow', 'meow 2', 'Song of my people']
+
+for book in books:
+    print(len(book))
 
