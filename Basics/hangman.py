@@ -10,7 +10,7 @@ def hangman(word):
               "|        "
               ]
     rletters = list(word)
-    board = ["__"] * len( word)
+    board = ["__"] * len(word)
     win = False
     print(" Welcome to Hangman")
     while wrong < len(stages) - 1:
@@ -18,7 +18,7 @@ def hangman(word):
         msg = "Guess a letter"
         char = input(msg)
         if char in rletters:
-            cind = rlettes \
+            cind = rletters \
                  .index(char)
             board[cind] = char
             rletters[cind] = '$'
@@ -29,10 +29,10 @@ def hangman(word):
             print("\n"
                   .join(stages[0: e]))
             if "__" not in board:
-                 print("You win!")
-                 print(" ".join(board))
-                 win = True
-                 break
+                print("You win!")
+                print(" ".join(board))
+                win = True
+                break
         if not win: 
             print("\ n" 
                 .join( stages[ 0: \

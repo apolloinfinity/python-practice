@@ -2,12 +2,15 @@
 def f(x):
     return x * 2
 
+
 result = f(3)
+
 print(result)
 
 
 def f(y):
     return y + 1
+
 
 z = f(4)
 
@@ -17,26 +20,28 @@ else:
     print("z is not 5")
 
 
-
 def f(x, y, z):
     return x + y + z
+
 
 result = f(1, 2, 3)
 print(result)
 
-#functions don't have to have a return statement but will give a message of none
+# functions don't have to have a return statement but will give a message of none
+
 
 def f():
+
     z = 1 + 1
 
-result = f()
-print(result)
+    result = f()
+    print(result)
 
 
-#Built in functions
+# Built in functions
 
 str = "Monty"
-#len() function is equivilent of .length in Javascript
+# len() function is equivilent of .length in Javascript
 print(len(str))
 
 #int function converts strings to integers and floating points to whole integers

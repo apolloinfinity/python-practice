@@ -22,7 +22,7 @@ if x == 10:
     if y == 11:
         print(x + y)
 
-#elif statement in which a variable matches a condition
+# elif statement in which a variable matches a condition
 home = "Thailand"
 if home == "Japan":
     print("Hello Japan!")
@@ -35,7 +35,7 @@ elif home == "China":
 else:
     print("Hello, World!")
 
-#elif statement in which the variable doesn't match the condition
+# elif statement in which the variable doesn't match the condition
 home = "Mars"
 if home == "Japan":
     print("Hello Japan!")
@@ -49,7 +49,7 @@ else:
     print("Hello, World!")
 
 
-#for loop in Python
+# for loop in Python
 
 for i in range(100):
     print("Hello, World!")
