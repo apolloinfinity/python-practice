@@ -1,5 +1,8 @@
-"""guesser.py, By Javier Ramirez, 2017-16-12
+"""guesser.py, By Javier Ramirez, 12-16-2017
+Updated: 2-1-2018
 This program has the user guess a number between 1 and 100.
+A couple of things I have learned from this project is using the random library, using while loop and
+I just recently added a try/exception to the project to catch non-integer
 """
 import random
 
