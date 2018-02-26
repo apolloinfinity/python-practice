@@ -15,7 +15,7 @@ class Planet():
     # 6. Class Level attributes
     shape = 'round'
 
-    #. Creating the Initial method
+    #2. Creating the Initial method
     def __init__(self, name, radius, gravity, system):
         # 2. Class properties
         self.name = name
@@ -40,14 +40,14 @@ class Planet():
 
 
 # 4. Creating an instance of the object
-naboo = Planet('Naboo', 300000, 8, 'Naboo System')
+# naboo = Planet('Naboo', 300000, 8, 'Naboo System')
 # print(f'Name: {naboo.name}')
 # print(f'Radius: {naboo.radius}')
 # print(f'Gravity: {naboo.gravity}')
 # print(naboo.orbit())
-print(Planet.shape)
+# print(Planet.shape)
 # print(naboo.commons())
-print(Planet.spin(4000))
+# print(Planet.spin(4000))
 
 class Car():
     wheel_shape = 'round'
