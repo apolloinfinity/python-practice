@@ -17,3 +17,6 @@ print(abs(-320))
 
 # sum method adds all the numbers inside of a list together.
 print(sum(a))
+
+nums = (55, 44, 33, 22)
+print(max(min(nums[:2]), abs(-42)))
