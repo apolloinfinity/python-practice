@@ -54,3 +54,4 @@ fabric.properties
 /Basics/.idea/
 practice/
 .vscode
+__pycache__
