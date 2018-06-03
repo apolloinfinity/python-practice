@@ -44,15 +44,17 @@ def cube_everythin(func):
     return wrap
 
 @square_everything
+
+
 def my_maths():
     return 5
 
 
 print(my_maths())
 
-@cube_everythin
-def more_maths():
-    return 5
+# @cube_everythin
+# def more_maths():
+#     return 5
 
-print(more_maths())
+# print(more_maths())
 
